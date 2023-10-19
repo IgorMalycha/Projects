@@ -1,0 +1,331 @@
+
+body{
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    background-color: rgb(29, 28, 28);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 6dvh;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.navBar a:hover{
+    color: blueviolet;
+}
+.logo{
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: rgb(140, 1, 221);
+    width: 4em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+}
+.btn{
+width: 150px;
+height: 50px;
+border-radius: 40px;
+font-size: 20px;
+font-weight: 600;
+border: 3px solid;
+border-color: blueviolet;
+cursor: pointer;
+position: absolute;
+margin-left: 20px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    width: 170px;
+    height: 60px;
+}
+.HireMeBtn{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.activity-section i{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50%;
+}
+.activity-section i:hover{
+    color: rgb(116, 27, 199);
+    background-color: aliceblue;
+}
+section{
+    padding: 14rem 9% 2rem;
+    display: flex;
+}
+.section1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+}
+.menu{
+    max-width: 1200px;
+    margin-left: 50px;
+    padding: 5rem 2rem;
+}
+.btns button{
+    margin-left: 30px;
+}
+.blur{
+    box-shadow: 0 0 1000px 100px rgb(149, 0, 248);
+    position: absolute;
+    z-index: -100;
+}
+.btnM{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid;
+    border-color: blueviolet;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btnM:hover{
+   background-color: blueviolet;
+}
+.text1{
+    font-size: 22px;
+    color: rgb(160, 162, 163);
+}
+.text2{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.menu span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px aliceblue;
+}
+.text3{
+    color: rgb(182, 176, 176);
+    font-size: 18px;
+}
+.imgDiv{
+    
+    width: 30%;
+    margin-left: 200px;
+}
+.imgDiv img{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 15%;
+}
+.featuresText{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+.menu2{
+    width: 100%;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    
+}
+.features i{
+    border-radius: 5px;
+    background-color: rgb(158, 81, 182);
+    text-align: center;
+    font-size: 50px;
+    width: 1.4em; 
+    font-size: 60px;
+}
+.feature{
+    background-color: rgb(58, 57, 57);
+    border: 2px solid rgb(58, 57, 57);
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 250px;
+    margin-top: 30px;
+    text-align: center;
+    min-width: 240px;
+}
+.feature:hover{
+    border-color: aliceblue;
+    box-shadow: 2px 2px 20px 10px;
+    background-color: rgb(66, 65, 65);
+}
+.feature p{
+    font-size: 17px;
+}
+.featureText{
+    font-size: 30px;
+    color: aliceblue;
+}
+.features a{
+    color: rgb(179, 181, 182);
+    text-decoration: none;
+    font-size: 20px;
+}
+.features a:hover{
+    color:blueviolet;
+}
+.projectPlans{
+    width: 100%;
+}
+.projectPlans p{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(169, 160, 182);
+}
+.plansTitle{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(155, 72, 233);
+    background-color: rgb(194, 194, 194);
+    border-radius: 50%;
+}
+.plans{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    color: aliceblue;  
+}
+.plan{
+    background-color: rgb(58, 57, 57);
+    border: 2px solid rgb(58, 57, 57);
+    padding: 35px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+.plan .content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+.plan:hover{
+    background-color: rgb(73, 71, 71);
+    border: 2px solid aliceblue;
+    box-shadow: 2px 2px 20px 10px black;
+}
+.plans h3{
+    font-size: 24px;
+    border-bottom: 3px dashed;
+    height: 2.4em;
+}
+.plans h2{
+    font-size: 40px;
+}
+.plan li::marker{
+    content: "✔";
+
+}
+.plan li{
+    font-size: 18px;
+}
+.btnP{
+    font-size: 20px;
+    height: 2.1em;
+    border-radius: 11px;
+    border: 2px solid;
+    font-weight: 600;
+}
+.btnP:hover{
+    background-color:blueviolet;
+    color: rgb(213, 218, 219);
+    box-shadow: 2px 2px 60px 5px rgb(37, 36, 36);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 30px;
+}
+.footer .Ftext{
+    color: aliceblue;
+    font-size: 16px;
+}
+.footer i{
+    font-size: 20px;
+    margin-left: 14px;
+    color: aliceblue;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+.footer i:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.footerInfos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
+.footerInfos h4{
+    font-size: 22px;
+    color: rgb(198, 203, 207);
+}
+.footerInfos a{
+    text-decoration: none;
+    color:rgb(202, 193, 207);
+    margin: 8px;
+}
+.footer a:hover{
+    color: blueviolet;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.copyRight{
+    color: rgb(121, 126, 129);
+    padding: 40px;
+    margin: auto;
+}
+
+@media (width < 900px){
+    .section1{
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        
+    }
+    .features{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .plans{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
